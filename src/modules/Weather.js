@@ -35,7 +35,7 @@ export default function Weather (props) {
                         {convertunixtoday(i.dt)}
                 </div>
                 <div className="icon">
-                        <img src={` http://openweathermap.org/img/wn/${i.weather[0].icon}@2x.png`} alt="" srcset="" />
+                        <img src={` http://openweathermap.org/img/wn/${i.weather[0].icon}@2x.png`} alt="weather" srcset="" />
                 </div>
                          
                 <div className="temp">
