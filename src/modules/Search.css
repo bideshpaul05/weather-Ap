@@ -57,6 +57,8 @@
     #submit-btn{
     font-size:12px;
     margin-right:23px;
+    }
+    
 }
 @media (max-width:480px) {
     .search-area{
