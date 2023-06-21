@@ -5,9 +5,10 @@ export default function Weather (props) {
         {
                 var date = new Date(unix * 1000);
                 // Hours part from the timestamp
-                var hours = date.getUTCHours().toString().padStart(2,0);
-                var mins = date.getUTCMinutes().toString().padStart(2,0);
-                var str = hours+':'+mins
+                // var hours = date.getUTCHours().toString().padStart(2,0);
+                // var mins = date.getUTCMinutes().toString().padStart(2,0);
+                // var str = hours+':'+mins
+                var str = date.toLocaleTimeString("default");
                 return str
 
         }
